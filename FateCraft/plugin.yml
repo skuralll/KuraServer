@@ -1,0 +1,6 @@
+name: BattleFrontier
+main: fatecraft\Main
+version: 1.0
+api: 3.0.0
+load: POSTWORLD
+author: kurarin
