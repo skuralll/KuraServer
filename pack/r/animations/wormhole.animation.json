@@ -1,0 +1,13 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.wormhole.pose": {
+			"loop": true,
+			"bones": {
+				"bone": {
+					"position": [0, "Math.cos(query.anim_time * 60) * 0.8 + 0.8", 0]
+				}
+			}
+		}
+	}
+}

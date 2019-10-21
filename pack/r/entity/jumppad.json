@@ -1,0 +1,28 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:polar_bear",
+      "materials": { "default": "jumppad" },
+      "textures": {
+        "default": "textures/entity/jumppad"
+      },
+      "geometry": {
+        "default": "geometry.jumppad"
+      },
+      "animations": {
+        "pose": "animation.jumppad.pose"
+      },
+      "scripts": {
+  	   "scale": "1.5"
+	    },
+      "render_controllers": [
+         "controller.render.jumppad" 
+      ],
+      "spawn_egg": {
+        "base_color": "#E1D8DB",
+        "overlay_color": "#00DBC7"
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "KuraServer Pack",
+        "name": "KuraServer Pack",
+        "uuid": "e4b24d7f-6748-4957-93c7-38252e2cf8b3",
+        "version": [0, 2, 6],
+        "min_engine_version": [1, 10, 0]
+    },
+    "modules": [
+        {
+            "description": "KuraServer Pack",
+            "type": "resources",
+            "uuid": "c53cb30e-de42-41fc-9c26-9a97f6ae0b6a",
+            "version": [0, 0, 2]
+        }
+    ]
+}

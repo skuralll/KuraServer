@@ -1,0 +1,37 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:llama",
+      "min_engine_version": "1.8.0",
+      "materials": { "default": "llama" },
+      "textures": {
+        "creamy": "textures/entity/wormhole",
+        "white": "textures/entity/wormhole",
+        "brown": "textures/entity/wormhole",
+        "gray": "textures/entity/wormhole"
+      },
+      "geometry": {
+        "default": "geometry.wormhole"
+      },
+      "animations": {
+        "setup": "animation.wormhole.pose",
+        "walk": "animation.wormhole.pose",
+        "look_at_target": "animation.wormhole.pose",
+        "baby_transform": "animation.wormhole.pose"
+      },
+      "animation_controllers": [
+        { "move": "controller.animation.llama.move" },
+        { "baby": "controller.animation.llama.baby" }
+      ],
+      "scripts": {
+       "scale": "1.5"
+      },
+      "render_controllers": [ "controller.render.llama" ],
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 38
+      }
+    }
+  }
+}

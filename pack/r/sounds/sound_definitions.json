@@ -1,0 +1,65 @@
+{
+ "bf2.photonsword_swing": {
+    "category": "music",
+    "sounds": [
+     {
+      "name": "sounds/server/photonsword_swing",
+      "volume": 1
+     }
+    ]
+  },
+ "bf2.assaultrifle_shot": {
+    "category": "music",
+    "sounds": [
+     {
+      "name": "sounds/server/assaultrifle_shot",
+      "volume": 0.3
+     }
+    ]
+  },
+ "bf2.handgun_shot": {
+    "category": "music",
+    "sounds": [
+     {
+      "name": "sounds/server/handgun_shot",
+      "volume": 0.5
+     }
+    ]
+  },
+ "bf2.shotgun_shot": {
+    "category": "music",
+    "sounds": [
+     {
+      "name": "sounds/server/shotgun_shot",
+      "volume": 0.5
+     }
+    ]
+  },
+ "bf2.sniperrifle_shot": {
+    "category": "music",
+    "sounds": [
+     {
+      "name": "sounds/server/sniperrifle_shot",
+      "volume": 0.4
+     }
+    ]
+  },
+ "bf2.mission_start": {
+    "category": "music",
+    "sounds": [
+     {
+      "name": "sounds/server/mission_start",
+      "volume": 1
+     }
+    ]
+  },
+ "bf2.mission_finish": {
+    "category": "music",
+    "sounds": [
+     {
+      "name": "sounds/server/mission_finish",
+      "volume": 1
+     }
+    ]
+  }
+}
