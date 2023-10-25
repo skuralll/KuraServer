@@ -1,10 +1,18 @@
 # KuraServer
-This is plugin for PocketMine-MP.
+Minecraft統合版用サーバーソフトウェアPocketMine-MP向けプラグイン
+主に二種類のPvPゲームとそれに必要なリソースパックを提供します。
 
-# Vortex
-Vortex is core pvp like Annihilation.
-Unique skills enable you to play exciting pvp game.
+### 注意点
+Minecraft、PocketMine-MPには破壊的な変更が多く加えられており、当README執筆時点ではこのプラグインは動作しません。
 
-# BattleFront2R
-BattleFront2'R' is gun pvp game.
+## Vortex
+AnnihilationのようなコアPvPゲームを提供します.
+敵陣地にあるコアブロックを破壊し、自チームのもの以外の全てのコアを破壊しきれば勝利となります。
+このゲームでは職の概念が存在し、職ごとに異なる特殊能力を使うことができます。
 
+## BattleFront2R
+銃火器を用いて遊ぶFFA式のPvPゲームを提供します。
+
+## pack
+ゲームの進行や演出に必要なリソースパックです。
+3Dモデルやテクスチャ、パーティクル定義ファイル、サウンドファイル等から構成されています。
